@@ -33,7 +33,7 @@
 </template>
 
 <script setup lang="ts">
-const { locale } = useI18n()
+const { locale, t } = useI18n()
 const { phone, phoneClean, address } = useContactInfo()
 
 const currentAddress = computed(() => locale.value === 'ar' ? address.ar : address.en)

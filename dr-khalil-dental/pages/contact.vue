@@ -30,11 +30,11 @@
       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div class="grid grid-cols-1 lg:grid-cols-2 gap-8">
           <!-- Left Column: Form -->
-          <ContactContactForm />
+          <ContactForm />
           
           <!-- Right Column: Info & Hours -->
           <div class="space-y-6">
-            <ContactContactInfo />
+            <ContactInfo />
             <ContactOpeningHours />
           </div>
         </div>
