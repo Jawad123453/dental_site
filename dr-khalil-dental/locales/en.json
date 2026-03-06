@@ -135,7 +135,9 @@
     "send": "Send Message",
     "sending": "Sending...",
     "success": "Thank you! We'll get back to you soon.",
-    "orWhatsApp": "Or contact us directly via WhatsApp for faster response"
+    "orWhatsApp": "Or contact us directly via WhatsApp for faster response",
+    "sendViaWhatsApp": "Send via WhatsApp",
+    "whatsAppNote": "This will open WhatsApp with your message ready to send"
   },
   "hours": {
     "title": "Opening Hours",

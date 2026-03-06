@@ -20,7 +20,10 @@
             v-for="link in navLinks" 
             :key="link.to"
             :to="link.to"
-            class="text-slate-300 hover:text-gold transition-colors font-medium"
+            :class="[
+              route.path === link.to ? 'text-gold' : 'text-slate-300',
+              'hover:text-gold transition-colors font-medium'
+            ]"
           >
             {{ t(link.labelKey) }}
           </NuxtLink>
@@ -67,7 +70,10 @@
               v-for="link in navLinks" 
               :key="link.to"
               :to="link.to"
-              class="text-slate-300 hover:text-gold transition-colors font-medium px-2 py-1"
+              :class="[
+                route.path === link.to ? 'text-gold' : 'text-slate-300',
+                'hover:text-gold transition-colors font-medium px-2 py-1'
+              ]"
               @click="isMenuOpen = false"
             >
               {{ t(link.labelKey) }}
@@ -92,6 +98,7 @@
 
 <script setup lang="ts">
 const { locale, t, setLocale } = useI18n()
+const route = useRoute()
 const isMenuOpen = ref(false)
 
 const navLinks = [

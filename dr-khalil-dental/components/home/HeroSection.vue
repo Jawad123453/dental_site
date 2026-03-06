@@ -44,16 +44,12 @@
         <div class="relative hidden lg:block">
           <div class="absolute inset-0 bg-gradient-to-br from-gold/20 to-transparent rounded-3xl transform rotate-3"></div>
           <div class="relative bg-navy-50 rounded-3xl overflow-hidden border border-slate-700 shadow-2xl">
-            <div class="aspect-[4/5] bg-gradient-to-br from-slate-700 to-slate-800 flex items-center justify-center">
-              <div class="text-center p-8">
-                <div class="w-32 h-32 bg-gold/20 rounded-full mx-auto mb-4 flex items-center justify-center">
-                  <svg class="w-16 h-16 text-gold" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z"/>
-                  </svg>
-                </div>
-                <p class="text-slate-400 text-sm">{{ t('hero.doctorPhoto') }}</p>
-                <p class="text-slate-500 text-xs mt-1">{{ t('hero.replaceImage') }}</p>
-              </div>
+            <div class="aspect-[4/5]">
+              <img 
+                src="/images/Doctor image.png" 
+                :alt="t('hero.doctorName')"
+                class="w-full h-full object-cover"
+              />
             </div>
           </div>
         </div>

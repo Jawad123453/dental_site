@@ -1,7 +1,7 @@
 export const useContactInfo = () => {
-  const phone = '+961 1 234 567'
-  const phoneClean = '+9611234567'
-  const whatsappNumber = '9611234567'
+  const phone = '+961 71 690 820'
+  const phoneClean = '+96171690820'
+  const whatsappNumber = '96171690820'
   const whatsappMessage = encodeURIComponent('Hello Dr. Ahmad, I would like to book an appointment.')
   const whatsappLink = `https://wa.me/${whatsappNumber}?text=${whatsappMessage}`
   
