@@ -1,0 +1,218 @@
+{
+  "nav": {
+    "services": "Services",
+    "about": "About",
+    "reviews": "Reviews",
+    "contact": "Contact",
+    "drKhalil": "Dr. Khalil",
+    "toggleMenu": "Toggle menu"
+  },
+  "hero": {
+    "badge": "Now Accepting New Patients",
+    "doctorName": "Dr. Ahmad Khalil",
+    "title": "Dental Surgeon",
+    "location": "Beirut, Lebanon",
+    "description": "Experience world-class dental care with over 15 years of expertise. Your perfect smile is just one appointment away.",
+    "bookWhatsApp": "Book via WhatsApp",
+    "callNow": "Call Now",
+    "doctorPhoto": "Doctor Photo",
+    "replaceImage": "Replace with professional image"
+  },
+  "trustBar": {
+    "yearsExperience": "Years Experience",
+    "happyPatients": "Happy Patients",
+    "patientRating": "Patient Rating",
+    "servicesOffered": "Services Offered"
+  },
+  "services": {
+    "title": "Our Services",
+    "subtitle": "Comprehensive dental care tailored to your needs",
+    "viewAll": "View All Services",
+    "askAbout": "Ask about this",
+    "notSure": "Not Sure Which Treatment You Need?",
+    "notSureDesc": "Book a consultation with Dr. Ahmad to discuss your dental health and find the best treatment plan for you.",
+    "bookConsultation": "Book a Consultation",
+    "dental": {
+      "implants": {
+        "name": "Dental Implants",
+        "shortDescription": "Permanent tooth replacement solutions",
+        "fullDescription": "State-of-the-art dental implants that look and feel like natural teeth. Our titanium implants provide a permanent foundation for replacement teeth."
+      },
+      "whitening": {
+        "name": "Teeth Whitening",
+        "shortDescription": "Professional brightening treatments",
+        "fullDescription": "Advanced whitening treatments that safely remove stains and discoloration, giving you a brighter, more confident smile in just one visit."
+      },
+      "veneers": {
+        "name": "Porcelain Veneers",
+        "shortDescription": "Transform your smile instantly",
+        "fullDescription": "Custom-crafted porcelain veneers that correct chips, gaps, and discoloration. Achieve a Hollywood smile with our premium veneer treatments."
+      },
+      "braces": {
+        "name": "Orthodontics & Braces",
+        "shortDescription": "Straighten teeth at any age",
+        "fullDescription": "Traditional braces and modern clear aligners to correct misalignment and create a perfectly straight smile for patients of all ages."
+      },
+      "cleaning": {
+        "name": "Deep Cleaning",
+        "shortDescription": "Thorough professional cleaning",
+        "fullDescription": "Comprehensive dental cleaning that removes plaque, tartar, and bacteria. Prevent gum disease and maintain optimal oral health."
+      },
+      "rootCanal": {
+        "name": "Root Canal Treatment",
+        "shortDescription": "Save infected teeth painlessly",
+        "fullDescription": "Modern, virtually painless root canal therapy to save infected teeth. Our gentle approach ensures comfort throughout the procedure."
+      }
+    }
+  },
+  "cta": {
+    "ready": "Ready to Book Your Appointment?",
+    "firstStep": "Take the first step towards your perfect smile. Contact us today and let Dr. Ahmad help you achieve the dental health you deserve.",
+    "bookWhatsApp": "Book via WhatsApp"
+  },
+  "about": {
+    "title": "About Dr. Ahmad",
+    "subtitle": "15+ years of excellence in dental care",
+    "doctorName": "Dr. Ahmad Khalil",
+    "specialty": "General Dentist & Implant Specialist",
+    "university": "American University of Beirut (AUB)",
+    "bio1": "With over 15 years of experience in dental care, Dr. Ahmad Khalil has established himself as one of Beirut's most trusted dental professionals. His commitment to excellence and patient comfort has earned him the loyalty of over 2,000 satisfied patients.",
+    "bio2": "Dr. Khalil specializes in dental implants, cosmetic dentistry, and restorative procedures. He combines state-of-the-art technology with a gentle, patient-centered approach to deliver exceptional results while ensuring your comfort throughout every procedure.",
+    "doctorPhoto": "Doctor Photo",
+    "replaceImage": "Replace with professional image"
+  },
+  "credentials": {
+    "aubGraduate": "AUB Graduate",
+    "experience": "15+ Years Experience",
+    "languages": "Arabic & English"
+  },
+  "whyChoose": {
+    "title": "Why Patients Choose Dr. Ahmad",
+    "gentle": {
+      "title": "Gentle & Pain-Free Approach",
+      "description": "Dr. Ahmad is known for his gentle touch and patient-first philosophy. He takes extra care to ensure every procedure is as comfortable as possible, using the latest pain management techniques."
+    },
+    "technology": {
+      "title": "Modern Technology & Equipment",
+      "description": "Our clinic is equipped with the latest dental technology, including digital X-rays, 3D imaging, and advanced sterilization systems to ensure the best possible outcomes."
+    },
+    "transparent": {
+      "title": "Transparent Pricing & Communication",
+      "description": "No hidden fees or surprises. Dr. Ahmad believes in clear communication about treatment options, costs, and expected outcomes before any procedure begins."
+    },
+    "bookConsultation": "Book Your Consultation"
+  },
+  "reviews": {
+    "title": "Patient Reviews",
+    "subtitle": "See what our patients say about their experience",
+    "basedOn": "Based on",
+    "patientReviews": "patient reviews",
+    "findUs": "Find Us on Google Maps",
+    "visitClinic": "Visit our clinic in Achrafieh, Beirut",
+    "readyToJoin": "Ready to Join Our Happy Patients?",
+    "experience": "Experience the difference of quality dental care. Book your appointment today.",
+    "bookAppointment": "Book Your Appointment"
+  },
+  "contact": {
+    "title": "Contact Us",
+    "subtitle": "Book your appointment today",
+    "fastest": "Fastest Way to Reach Us",
+    "fastestDesc": "Send us a message on WhatsApp and we'll respond within minutes during business hours.",
+    "messageWhatsApp": "Message Us on WhatsApp",
+    "visitClinic": "Visit Our Clinic",
+    "visitClinicDesc": "Located in the heart of Achrafieh, Beirut",
+    "phone": "Phone",
+    "address": "Address"
+  },
+  "form": {
+    "sendMessage": "Send us a Message",
+    "yourName": "Your Name",
+    "namePlaceholder": "Enter your name",
+    "phoneNumber": "Phone Number",
+    "phonePlaceholder": "+961 XX XXX XXX",
+    "message": "Message",
+    "messagePlaceholder": "How can we help you?",
+    "send": "Send Message",
+    "sending": "Sending...",
+    "success": "Thank you! We'll get back to you soon.",
+    "orWhatsApp": "Or contact us directly via WhatsApp for faster response"
+  },
+  "hours": {
+    "title": "Opening Hours",
+    "monday": "Monday",
+    "tuesday": "Tuesday",
+    "wednesday": "Wednesday",
+    "thursday": "Thursday",
+    "friday": "Friday",
+    "saturday": "Saturday",
+    "sunday": "Sunday",
+    "closed": "Closed",
+    "mondaySaturday": "Monday – Saturday",
+    "sundayClosed": "Sunday: Closed"
+  },
+  "footer": {
+    "brand": "Dr. Khalil Dental",
+    "contact": "Contact",
+    "whatsapp": "WhatsApp",
+    "openingHours": "Opening Hours",
+    "copyright": "© {year} Dr. Ahmad Khalil Dental Clinic. All rights reserved."
+  },
+  "language": {
+    "switch": "العربية",
+    "current": "English"
+  },
+  "meta": {
+    "home": {
+      "title": "Dr. Ahmad Khalil Dental Clinic | Beirut, Lebanon",
+      "description": "Premium dental care in Beirut. Dr. Ahmad Khalil offers implants, whitening, veneers, braces, and more. 15+ years of experience. Book your appointment today."
+    },
+    "services": {
+      "title": "Services | Dr. Ahmad Khalil Dental Clinic",
+      "description": "Explore our comprehensive dental services including implants, whitening, veneers, braces, cleaning, and root canal treatments in Beirut."
+    },
+    "about": {
+      "title": "About | Dr. Ahmad Khalil Dental Clinic",
+      "description": "Learn about Dr. Ahmad Khalil, a trusted dental professional in Beirut with over 15 years of experience. AUB graduate specializing in implants and cosmetic dentistry."
+    },
+    "reviews": {
+      "title": "Reviews | Dr. Ahmad Khalil Dental Clinic",
+      "description": "Read reviews from our satisfied patients. Dr. Ahmad Khalil Dental Clinic has a 4.9/5 rating based on 120+ patient reviews in Beirut."
+    },
+    "contact": {
+      "title": "Contact | Dr. Ahmad Khalil Dental Clinic",
+      "description": "Contact Dr. Ahmad Khalil Dental Clinic in Achrafieh, Beirut. Book your appointment via WhatsApp or call us. Open Monday-Saturday 9am-7pm."
+    }
+  },
+  "reviewsData": {
+    "1": {
+      "name": "Sarah M.",
+      "city": "Beirut",
+      "quote": "Dr. Ahmad is incredibly skilled and gentle. My dental implant procedure was completely painless. Highly recommend!"
+    },
+    "2": {
+      "name": "Karim H.",
+      "city": "Jounieh",
+      "quote": "Best dental clinic in Beirut. The staff is professional and the clinic is spotless. My whole family comes here."
+    },
+    "3": {
+      "name": "Nadia R.",
+      "city": "Achrafieh",
+      "quote": "I was terrified of dentists until I found Dr. Khalil. He made me feel comfortable and explained everything clearly."
+    },
+    "4": {
+      "name": "Georges A.",
+      "city": "Hamra",
+      "quote": "Got my teeth whitened here and the results are amazing. Very professional service and reasonable prices."
+    },
+    "5": {
+      "name": "Lama K.",
+      "city": "Beirut",
+      "quote": "Great experience with my root canal treatment. Dr. Ahmad is very experienced and the clinic has modern equipment."
+    },
+    "6": {
+      "name": "Hassan B.",
+      "city": "Verdun",
+      "quote": "My veneers look absolutely natural. Dr. Khalil took his time to get the perfect shade and shape. Worth every penny!"
+    }
+  }
+}
