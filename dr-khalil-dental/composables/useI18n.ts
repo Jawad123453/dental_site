@@ -8,9 +8,6 @@ const locales: Record<Locale, Record<string, any>> = {
   en: enLocale,
 }
 
-const currentLocale = ref<Locale>('ar')
-const isHydrated = ref(false)
-
 function getNestedValue(obj: Record<string, any>, path: string): string {
   const keys = path.split('.')
   let result: any = obj
@@ -27,18 +24,20 @@ function getNestedValue(obj: Record<string, any>, path: string): string {
 }
 
 export const useI18n = () => {
+  const localeCookie = useCookie<Locale>('locale', {
+    default: () => 'ar',
+    watch: true,
+  })
+
   const locale = computed({
-    get: () => currentLocale.value,
+    get: () => localeCookie.value,
     set: (val: Locale) => {
-      currentLocale.value = val
-      if (import.meta.client) {
-        localStorage.setItem('locale', val)
-      }
+      localeCookie.value = val
     }
   })
 
   const t = (key: string, params?: Record<string, any>): string => {
-    let translation = getNestedValue(locales[currentLocale.value], key)
+    let translation = getNestedValue(locales[localeCookie.value], key)
     
     if (params) {
       Object.keys(params).forEach(param => {
@@ -50,26 +49,12 @@ export const useI18n = () => {
   }
 
   const setLocale = (newLocale: Locale) => {
-    currentLocale.value = newLocale
-    if (import.meta.client) {
-      localStorage.setItem('locale', newLocale)
-    }
+    localeCookie.value = newLocale
   }
 
   return {
     locale,
     t,
     setLocale,
-    isHydrated,
-  }
-}
-
-export const initLocale = () => {
-  if (import.meta.client && !isHydrated.value) {
-    const savedLocale = localStorage.getItem('locale') as Locale | null
-    if (savedLocale && (savedLocale === 'ar' || savedLocale === 'en')) {
-      currentLocale.value = savedLocale
-    }
-    isHydrated.value = true
   }
 }
