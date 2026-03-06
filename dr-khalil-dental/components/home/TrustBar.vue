@@ -14,7 +14,7 @@
             {{ t(stat.labelKey) }}
           </div>
         </div>
-      </div>
+      </div> 
     </div>
   </section>
 </template>
